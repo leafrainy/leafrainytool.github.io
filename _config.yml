@@ -1,5 +1,1 @@
-#markdown: rdiscount
-markdown: redcarpet
-markdown: redcarpet
-redcarpet:
-    extensions: ["fenced_code_blocks", "tables", "highlight", "with_toc_data", "strikethrough", "underline"]
+markdown: rdiscount
