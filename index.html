@@ -2,8 +2,9 @@
 　layout: default
 　title: 我的Blog
 ---
-　<h2>{{ page.title }}</h2>
-　<p>最新文章</p>
+ <link rel="stylesheet" href="http://yandex.st/highlightjs/7.1/styles/default.min.css">
+<script src="http://yandex.st/highlightjs/7.1/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 　<ul>
 　　　{% for post in site.posts %}
 　　　　　<li>{{ post.content }}</li>
