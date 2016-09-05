@@ -1,10 +1,8 @@
 ---
-　layout: default
-　title: 我的Blog
+layout: default
+title: 我的Blog
 ---
 
-　<ul>
-　　　{% for post in site.posts %}
-　　　　　<li>{{ post.content }}</li>
-　　　{% endfor %}
-　</ul>
+{% for post in site.posts %}
+{{ post.content }}
+{% endfor %}
