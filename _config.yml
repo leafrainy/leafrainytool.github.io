@@ -1,1 +1,4 @@
-markdown: rdiscount
+#markdown: rdiscount
+markdown: redcarpet
+redcarpet:
+    extensions: []
