@@ -3,5 +3,6 @@ layout: default
 title: 我的Blog
 ---
 
-
-{{ site.posts.0.content }}
+{% for post in site.posts %}
+{{ post.content }}
+{% endfor %}
